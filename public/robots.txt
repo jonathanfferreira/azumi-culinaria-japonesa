@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://azumi-joinville.web.app/sitemap.xml

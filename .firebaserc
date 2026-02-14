@@ -1,0 +1,18 @@
+{
+  "projects": {
+    "default": "xpace-digital"
+  },
+  "targets": {
+    "xpace-digital": {
+      "hosting": {
+        "azumi": [
+          "azumi-joinville"
+        ],
+        "agency": [
+          "xpace-digital"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

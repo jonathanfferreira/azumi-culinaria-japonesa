@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+/* Custom theme for Azumi */
+@theme {
+  --color-azumi-red: #DC143C;
+  --color-azumi-dark: #050505;
+  --color-azumi-gray: #121212;
+  --color-azumi-offwhite: #f0f0f0;
+
+  --font-serif: 'Cinzel', serif;
+  --font-sans: 'Inter', sans-serif;
+  --font-japanese: 'Noto Serif JP', serif;
+
+  --background-image-noise: url('/noise.svg');
+
+  --font-size-monster: 12rem;
+  --font-size-giant: 8rem;
+
+  --letter-spacing-tighter: -0.05em;
+  --letter-spacing-tightest: -0.08em;
+}
+
+/* Custom styles for Azumi */
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Custom scrollbar for dark theme */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #DC143C;
+}
+
+/* Typography Utilities */
+@utility text-outline-white {
+  -webkit-text-stroke: 2px rgba(255, 255, 255, 0.2);
+  color: transparent;
+}
+
+@utility text-outline-dark {
+  -webkit-text-stroke: 1px rgba(0, 0, 0, 0.15);
+  color: transparent;
+}
+
+@utility writing-vertical-rl {
+  writing-mode: vertical-rl;
+}
